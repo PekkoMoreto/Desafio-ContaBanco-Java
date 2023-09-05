@@ -13,14 +13,11 @@ public class Desafio {
 
         ContaBancaria contaBancaria = new ContaBancaria(numeroConta, nomeTitular, saldo);
 
-
-        //TODO: Criar uma instância de "ContaBancaria" com os valores de Entrada.
-
         System.out.println("Informacoes: ");
         System.out.println("Conta: " + contaBancaria.numero);
         System.out.println("Titular: " + contaBancaria.titular);
         System.out.println("Saldo: R$ " + contaBancaria.saldo);
-        //TODO: Imprimir as informações da conta usando o objeto criado no TODO acima.
+
     }
 }
 
